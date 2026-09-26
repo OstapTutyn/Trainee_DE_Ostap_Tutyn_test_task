@@ -2,3 +2,5 @@
 __pycache__/
 *.parquet
 .DS_Store
+data
+out

@@ -55,7 +55,7 @@ def clean_events_data(file_path):
         test_mask = df['is_test'].astype(str).str.lower().str.strip() == 'true'
         df = df[~test_mask]
 
-        # Карантин
+    # Карантин
     if all(col in df.columns for col in ['event_id', 'event_time', 'ingested_at']):
         bad_rows_mask = df['event_id'].isna() | df['event_time'].isna() | df['ingested_at'].isna()
         quarantine_df = df[bad_rows_mask].copy()
@@ -103,7 +103,7 @@ if __name__ == '__main__':
 
     args = parser.parse_args()
 
-    # 2. Запускаємо нашу функцію
+    # 2. Запускаємо функцію
     print(f"Починаємо обробку файлу: {args.input_file}...")
 
     # Викликаємо функцію і ловимо 3 об'єкти, які вона повертає
