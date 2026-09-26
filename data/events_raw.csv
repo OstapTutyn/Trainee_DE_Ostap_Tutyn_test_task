@@ -1,9 +1,0 @@
-event_id,user_id,app_id,event_name,event_time,ingested_at,country,media_source,campaign,revenue_usd,is_test
-e1,u1,app1,install,2026-01-01 10:00:00,2026-01-01 10:05:00,US,google,camp_a,1.50,false
-e2,u2,app1,purchase,2026-01-01 11:00:00,2026-01-01 11:05:00,GB,google,camp_a,NULL,false
-e2,u2,app1,purchase,2026-01-01 11:00:00,2026-01-02 09:00:00,GB,google,camp_a,5.00,false
-e3,u3,app2,install,2026-01-01 12:00:00,2026-01-01 12:05:00,,organic,none,,false
-e4,u4,app2,install,2026-01-01 13:00:00,2026-01-01 13:05:00,--,organic,none,NULL,false
-e5,u5,app1,install,2026-01-01 14:00:00,2026-01-01 14:05:00,de,google,camp_a,2.50,false
-e6,u6,app1,test,2026-01-01 15:00:00,2026-01-01 15:05:00,US,internal,qa,0.0,true
-e7,u7,app1,purchase,2026-01-01 16:00:00,2026-01-04 10:00:00,FR,organic,none,10.0,false

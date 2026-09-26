@@ -1,4 +1,0 @@
-date,app_id,media_source,campaign,cost_usd,impressions,clicks
-2026-01-01,app1,google,camp_a,50.0,1000,50
-2026-01-01,app1,facebook,camp_b,30.0,500,20
-2026-01-02,app1,google,camp_a,40.0,800,40
